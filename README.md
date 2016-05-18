@@ -4,7 +4,12 @@ The purpose of this small script is to parse a .menu file (XDG / FreeDesktop.org
 (Tested on Kali 2016.1 64-bit)
 - dmenu 
 - bash 4+
-- sed, head, tail, gawk :)
+- sed, head, tail, gawk, grep, tr, echo, find :P
+
+#####Why?
+There is [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) and a lot of other projects who parses .desktop files, but I couldn't find one that read .menu and .directory files, and generate a xdg menu like a DE normally does.
+
+This is necessary for me because sometimes I don't remember the name of a specific tool on kali.
 
 #####Cool. Show me!
 ![](https://cloud.githubusercontent.com/assets/5271831/15372638/c36d73c6-1d17-11e6-8e54-f718a098927c.gif)
