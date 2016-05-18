@@ -1,7 +1,7 @@
-The purpose of this small script is to parse a .menu file (XDG / FreeDesktop.org compliance) and offer you a main menu with submenu/categories to start an application using dmenu.
+The purpose of this small script is to parse a .menu file (XDG / FreeDesktop.org compliance) and offer a main menu with submenu/categories to start an application using dmenu.
 
 #####Requisites
-(Tested on Kali 2016.1 64-bit)
+(Made and tested only on Kali 2016.1 64-bit, but probably works with any .menu file)
 - dmenu 
 - bash 4+
 - sed, head, tail, gawk, grep, tr, echo, find :P
