@@ -1,14 +1,14 @@
 #!/bin/bash
 # Author: @fallc0nn (github, twitter)
-# Last Update: 18-May-2016
+# Last Update: 19-May-2016
 # Tested with Kali 2016.1 (Rolling Release), file "/etc/xdg/menus/applications-merged/kali-applications.menu"
 
-dmenu_cmd="dmenu -i -l 25"
+dmenu_cmd="dmenu -i -l 25 -fn -xos4-terminus-medium-r-*-*-14-*"
 menu_path="/etc/xdg/menus/applications-merged/kali-applications.menu"
 apps_path="/usr/share/kali-menu/applications/" #Path of .desktop files.
 menu_exceptions="Applications,Usual" #(Optional) Remove unused categories.
 menu_prefix="+" #(Optional) Replace with fontAwesome icons
-term_cmd="xfce4-terminal -e"
+term_cmd="xfce4-terminal --hide-borders --hide-toolbar --hide-menubar -e"
 
 ## (1) Main menu list
 menu_selected="$(grep "<Name>" "$menu_path" |grep -v "$(for e in $(echo $menu_exceptions |tr "," "\n"); do echo "Name>$e\|";done |sed "s/\\\|$//")" |sed "s/<\/\?Name>//g;s/^ \{4\}/$menu_prefix /" |grep -v "^$menu_prefix  " |$dmenu_cmd)"
