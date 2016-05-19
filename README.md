@@ -12,6 +12,7 @@ There is [j4-dmenu-desktop](https://github.com/enkore/j4-dmenu-desktop) and a lo
 I use a tiling window manager (bspwm and occasionally i3wm), so this is necessary for me because sometimes I don't remember the name of a specific tool on kali.
 
 #####Features
+- Replace/change dmenu and it's args (rofi, or a spin of dmenu or anything similar)
 - Configure the path of .menu file
 - Configure the path of .desktop files associated with categories/submenus listed on .menu file
 - Create exception list of categories/submenus
