@@ -20,4 +20,4 @@ I use a tiling window manager (bspwm and occasionally i3wm), so this is necessar
 - Specify a terminal emulation to launch the app chosen.
 
 #####Cool. Show me!
-![](https://cloud.githubusercontent.com/assets/5271831/15392701/44bd5b26-1d9f-11e6-936c-a48da99ade40.gif)
+![xdg_dmenu](https://cloud.githubusercontent.com/assets/5271831/15438581/3534fee8-1ea3-11e6-97b5-7e9264bc95d4.gif)
