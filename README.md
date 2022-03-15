@@ -1,3 +1,5 @@
+# DEAD PROJECT. FEEL FREE TO FORK AND MODIFY.
+
 The purpose of this small script is to parse a .menu file (XDG / FreeDesktop.org compliance) and offer a main menu with submenu/categories to start an application using dmenu.
 
 #### Requisites
